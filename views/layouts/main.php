@@ -59,7 +59,10 @@ AppAsset::register($this);
 
     <footer class="footer">
         <div class="container">
-            <p class="pull-left">&copy; FinFork <?= date('Y') ?></p>
+            <p class="pull-left">
+                &copy; FinFork <?= date('Y') ?><br/>
+                <span class="text-muted" style="padding-left:15px; font-size:11px">version 0.1</span>
+            </p>
             <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>
