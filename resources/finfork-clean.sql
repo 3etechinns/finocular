@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: Nov 12, 2014 at 01:59 PM
+-- Generation Time: Nov 12, 2014 at 02:10 PM
 -- Server version: 5.5.38
 -- PHP Version: 5.5.17
 
@@ -38,6 +38,21 @@ CREATE TABLE `credit` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `rules`
+--
+
+DROP TABLE IF EXISTS `rules`;
+CREATE TABLE `rules` (
+`id` int(11) NOT NULL,
+  `name` varchar(45) NOT NULL,
+  `pattern` varchar(80) NOT NULL,
+  `action` varchar(45) NOT NULL,
+  `matched` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `transactions`
 --
 
@@ -53,7 +68,8 @@ CREATE TABLE `transactions` (
   `category` int(11) NOT NULL,
   `recur_period` int(11) DEFAULT NULL,
   `credit_id` int(11) DEFAULT NULL,
-  `is_forecast` tinyint(4) NOT NULL DEFAULT '0'
+  `is_forecast` tinyint(4) NOT NULL DEFAULT '0',
+  `modified` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -80,7 +96,8 @@ CREATE TABLE `vat` (
 `id` int(11) NOT NULL,
   `transaction_id` int(11) NOT NULL,
   `value` int(11) NOT NULL,
-  `paid` tinyint(4) DEFAULT NULL
+  `paid` tinyint(4) DEFAULT NULL,
+  `modified` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -91,6 +108,12 @@ CREATE TABLE `vat` (
 -- Indexes for table `credit`
 --
 ALTER TABLE `credit`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `rules`
+--
+ALTER TABLE `rules`
  ADD PRIMARY KEY (`id`);
 
 --
@@ -119,6 +142,11 @@ ALTER TABLE `vat`
 -- AUTO_INCREMENT for table `credit`
 --
 ALTER TABLE `credit`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `rules`
+--
+ALTER TABLE `rules`
 MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `transactions`
