@@ -27,6 +27,11 @@ $config = [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+        'urlManager' => [
+            'class' => 'yii\web\UrlManager',
+            'enablePrettyUrl' => true,
+            'showScriptName' => false
+        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
