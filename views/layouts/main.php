@@ -26,7 +26,7 @@ AppAsset::register($this);
     <div class="wrap">
         <?php
             NavBar::begin([
-                'brandLabel' => '<div><img src="'.yii\helpers\BaseUrl::base().'/images/finfork-logo.png" /></div>',
+                'brandLabel' => '<div><img src="'.yii\helpers\BaseUrl::base().'/images/logo.png" width="93" height="20"/></div>',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar-inverse navbar-fixed-top',
@@ -60,10 +60,9 @@ AppAsset::register($this);
     <footer class="footer">
         <div class="container">
             <p class="pull-left">
-                &copy; FinFork <?= date('Y') ?><br/>
+                &copy; FinOcular <?= date('Y') ?><br/>
                 <span class="text-muted" style="padding-left:15px; font-size:11px">version 0.1</span>
             </p>
-            <p class="pull-right"><?= Yii::powered() ?></p>
         </div>
     </footer>
 

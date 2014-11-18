@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fa860188a99a173559f3fbf0906945a6",
+    "hash": "c59bb463405bafd4a7ba908a6b2d0bf0",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
-            "version": "3.3.0.x-dev",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "16dbdbd7a2c6cfa3be4e5dcc52249e577c02c84a"
+                "reference": "9a7e365c2c4360335d25246dac11afb1f577210a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/16dbdbd7a2c6cfa3be4e5dcc52249e577c02c84a",
-                "reference": "16dbdbd7a2c6cfa3be4e5dcc52249e577c02c84a",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/9a7e365c2c4360335d25246dac11afb1f577210a",
+                "reference": "9a7e365c2c4360335d25246dac11afb1f577210a",
                 "shasum": ""
             },
             "require": {
@@ -204,7 +204,8 @@
                     ".travis.yml",
                     "test/"
                 ]
-            }
+            },
+            "time": "2014-10-10 13:44:50"
         },
         {
             "name": "cebe/markdown",
@@ -360,12 +361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-grid.git",
-                "reference": "c1b3258b3d84cfd042228eb63210ae5478eda41c"
+                "reference": "e845403b920545beb209e8f674dd9c56eebdeed8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-grid/zipball/c1b3258b3d84cfd042228eb63210ae5478eda41c",
-                "reference": "c1b3258b3d84cfd042228eb63210ae5478eda41c",
+                "url": "https://api.github.com/repos/kartik-v/yii2-grid/zipball/e845403b920545beb209e8f674dd9c56eebdeed8",
+                "reference": "e845403b920545beb209e8f674dd9c56eebdeed8",
                 "shasum": ""
             },
             "require": {
@@ -396,7 +397,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2014-11-10 16:08:26"
+            "time": "2014-11-17 16:23:56"
         },
         {
             "name": "kartik-v/yii2-krajee-base",
@@ -404,12 +405,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-krajee-base.git",
-                "reference": "30dd9dff495abd28c85f2f5aaf408590e640100b"
+                "reference": "e91de9f1e4439fbb6b2fecb44a35b4c57b16eed2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/30dd9dff495abd28c85f2f5aaf408590e640100b",
-                "reference": "30dd9dff495abd28c85f2f5aaf408590e640100b",
+                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/e91de9f1e4439fbb6b2fecb44a35b4c57b16eed2",
+                "reference": "e91de9f1e4439fbb6b2fecb44a35b4c57b16eed2",
                 "shasum": ""
             },
             "require": {
@@ -442,7 +443,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2014-11-10 10:56:17"
+            "time": "2014-11-16 20:27:59"
         },
         {
             "name": "kartik-v/yii2-mpdf",
@@ -490,6 +491,45 @@
                 "yii2"
             ],
             "time": "2014-11-10 18:12:05"
+        },
+        {
+            "name": "perminder-klair/yii2-dropzone",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/perminder-klair/yii2-dropzone.git",
+                "reference": "738c04951e1212ea11acdde959e73fc01624575b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/perminder-klair/yii2-dropzone/zipball/738c04951e1212ea11acdde959e73fc01624575b",
+                "reference": "738c04951e1212ea11acdde959e73fc01624575b",
+                "shasum": ""
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kato\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Parminder Klair",
+                    "email": "perminder.klair@gmail.com"
+                }
+            ],
+            "description": "DropzoneJs Extention for Yii2",
+            "keywords": [
+                "dropzone",
+                "extension",
+                "upload",
+                "yii2"
+            ],
+            "time": "2014-10-24 16:24:19"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -549,12 +589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "8b49f63faf3d4ad2f7711061e1526853f7af5d65"
+                "reference": "90a57d793aacb8bac2cab0fee200af45eb9d63b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8b49f63faf3d4ad2f7711061e1526853f7af5d65",
-                "reference": "8b49f63faf3d4ad2f7711061e1526853f7af5d65",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/90a57d793aacb8bac2cab0fee200af45eb9d63b3",
+                "reference": "90a57d793aacb8bac2cab0fee200af45eb9d63b3",
                 "shasum": ""
             },
             "require": {
@@ -629,7 +669,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-11-12 02:24:07"
+            "time": "2014-11-17 16:51:57"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -637,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "65130c9a7e56d54350470eb70c820d30082c708c"
+                "reference": "87b6374376087b03b1556821c770ec6fbe246b31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/65130c9a7e56d54350470eb70c820d30082c708c",
-                "reference": "65130c9a7e56d54350470eb70c820d30082c708c",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/87b6374376087b03b1556821c770ec6fbe246b31",
+                "reference": "87b6374376087b03b1556821c770ec6fbe246b31",
                 "shasum": ""
             },
             "require": {
@@ -675,7 +715,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2014-11-07 22:41:01"
+            "time": "2014-11-16 17:57:10"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -809,12 +849,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "bd8e63631145016cfdf26e658b4a8a2a393698c2"
+                "reference": "44eae4deeb065454e68b3c9911181285f01003c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/bd8e63631145016cfdf26e658b4a8a2a393698c2",
-                "reference": "bd8e63631145016cfdf26e658b4a8a2a393698c2",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44eae4deeb065454e68b3c9911181285f01003c6",
+                "reference": "44eae4deeb065454e68b3c9911181285f01003c6",
                 "shasum": ""
             },
             "require": {
@@ -850,7 +890,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2014-11-10 16:46:22"
+            "time": "2014-11-12 17:27:49"
         },
         {
             "name": "phpspec/php-diff",
@@ -1078,7 +1118,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "kartik-v/yii2-mpdf": 20
+        "kartik-v/yii2-mpdf": 20,
+        "perminder-klair/yii2-dropzone": 20
     },
     "prefer-stable": false,
     "platform": {
